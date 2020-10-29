@@ -65,3 +65,31 @@ body {
 .aboutImage {
     max-width: 100%;
 }
+
+#navigation {
+    padding: 20px 10px;
+    z-index: 100;
+}
+
+#navigation li{
+    padding: 0 10px;
+}
+
+#navigation li a {
+    color: blue;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+    color: blue;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-image: url(../img/icons/menu.png);
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}

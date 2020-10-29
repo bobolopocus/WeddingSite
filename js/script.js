@@ -7,12 +7,4 @@ $(document).ready(function () {
         pagination: false
     });
 
-    //Fancy typed introductions
-    var typed = new Typed(".typed", {
-        strings: ["March 20, 2021 at the Friday Musicale"],
-        typeSpeed: 40,
-        loop: false,
-        startDelay: 1000,
-        showCursor: false
-    });
 });
